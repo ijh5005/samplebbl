@@ -16,17 +16,18 @@
 }
 
 img {
+	border-radius: 200px;
     height: 395px;
     width: 228px;
 }
 
 .pic,
 .picFront {
-	border-radius: 200px;
 	position: absolute;
 }
 
 .picFront {
+	border-radius: 200px;
     height: 400px;
     width: 228px;
     opacity: 0.5;
