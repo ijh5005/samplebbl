@@ -20,9 +20,52 @@ body {
     font-size: 4rem;
 }
 
-.textParams {
+.textParams1 {
+	left: 13em;
+	position: relative;
 	margin: 1em auto;
-    width: 52rem;
+	top: -11em;
+  width: 27rem;
+}
+
+.textParams2 {
+	left: 13em;
+  position: relative;
+  margin: 1em auto;
+  top: -11em;
+  width: 17rem;
+}
+
+.textParams3 {
+	left: 18em;
+	position: relative;
+	margin: 1em auto;
+	top: -11em;
+  width: 24rem;
+}
+
+.textParams4 {
+	left: 16em;
+	position: relative;
+	margin: 1em auto;
+	top: -11em;
+  width: 27rem;
+}
+
+.textParams5 {
+	left: 15em;
+	position: relative;
+	margin: 1em auto;
+	top: -11em;
+  width: 17rem;
+}
+
+.textParams6 {
+	left: 8em;
+	position: relative;
+	margin: 1em auto;
+	top: -11em;
+  width: 9rem;
 }
 
 #textOne,
@@ -45,17 +88,6 @@ body {
 	justify-content: flex-end;
 }
 
-#textFive {
-	width: 14rem;
-}
-
-#swipeLeft {
-	font-family: 'Raleway', sans-serif;
-    font-size: 5rem;
-	margin: 16rem auto;
-    text-align: center;
-}
-
 #bubbleHolder {
 	left: 0;
 	position: absolute;
@@ -64,147 +96,42 @@ body {
 
 .bubble {
 	align-items: center;
-	border-radius: 2000px;
+	border-top-right-radius: 34em;
+	border-bottom-right-radius: 34em;
 	display: flex;
-	height: 14em;
-	justify-content: center;
-    width: 14em;
+	height: 50em;
+	width: 37em;
 }
 
 .imgbubble {
 	border-radius: 2000px;
-	height: 10em;
-	width: 8em;
+	height: 30em;
+	width: 30em;
 }
 
 .imgfront {
+	align-items: center;
 	border-radius: 2000px;
-	height: 10em;
+	display: flex;
+	height: 32em;
+	justify-content: center;
 	position: absolute;
-	width: 8em;
+	width: 35em;
 }
 
 .one {
-	background: radial-gradient(circle at 100px 100px, #DE64E0, transparent);
-	left: 1em;
+	/*background: radial-gradient(circle at 100px 100px, #DE64E0, transparent);*/
 	position: relative;
-	top: 2em;
+	top: 27em;
 }
 
-.two {
-	background: radial-gradient(circle at 100px 100px, #9D98B1, transparent);
-	left: 44em;
-	position: relative;
-    top: -13em;
-}
 
-.three {
-	background: radial-gradient(circle at 100px 100px, #ADC6C0, transparent);
-	left: 4em;
-	position: relative;
-	top: 4em;
-}
-
-.four {
-	background: radial-gradient(circle at 100px 100px, #C65D70, transparent);
-	left: 32em;
-	position: relative;
-    top: -16em;
-}
-
-.five {
-	background: radial-gradient(circle at 100px 100px, #BC7D58, transparent);
-	left: 47em;
-	position: relative;
-	top: -16em;;
-}
-
-.six {
-	background: radial-gradient(circle at 100px 100px, #D67373, transparent);
-	position: relative;
-	top: -16em;
-}
-
-.seven {
-	background: radial-gradient(circle at 100px 100px, #7659EA, transparent);
-	left: 14em;
-	position: relative;
-	top: -20em;
-}
-
-.imgone {
+.img {
 	background-color: #DE64E0;
-	opacity: 0.4;
+	opacity: 0.6;
 }
 
-.imgtwo {
-	background-color: #9D98B1;
-	opacity: 0.4;
-}
-
-.imgthree {
-	background-color: #ADC6C0;
-	opacity: 0.4;
-}
-
-.imgfour {
-	background-color: #C65D70;
-	opacity: 0.4;
-}
-
-.imgfive {
-	background-color: #BC7D58;
-	opacity: 0.4;
-}
-
-.imgsix {
-	background-color: #D67373;
-	opacity: 0.4;
-}
-
-.imgseven {
-	background-color: #7659EA;
-	opacity: 0.4;
-}
-
-.imgone,
-.bubbleone {
+.img {
 	transform: perspective( 600px ) rotateX(-27deg) rotateY(-24deg );
-	transition: transform 1s linear 0s;
-}
-
-.imgtwo,
-.bubbletwo {
-	transform: perspective( 600px ) rotateX(-27deg) rotateY(14deg );
-	transition: transform 1s linear 0s;
-}
-
-.imgthree,
-.bubblethree {
-	transform: perspective( 600px ) rotateX(-27deg) rotateY(48deg );
-	transition: transform 1s linear 0s;
-}
-
-.imgfour,
-.bubblefour {
-	transform: perspective( 600px ) rotateX(-27deg) rotateY(4deg );
-	transition: transform 1s linear 0s;
-}
-
-.imgfive,
-.bubblefive {
-	transform: perspective( 600px ) rotateX(-27deg) rotateY(36deg );
-	transition: transform 1s linear 0s;
-}
-
-.imgsix,
-.bubblesix {
-	transform: perspective( 600px ) rotateX(-27deg) rotateY(-12deg );
-	transition: transform 1s linear 0s;
-}
-
-.imgseven,
-.bubbleseven {
-	transform: perspective( 600px ) rotateX(-27deg) rotateY(-6deg );
 	transition: transform 1s linear 0s;
 }
