@@ -1,0 +1,210 @@
+body {
+
+}
+
+#mainPageTitle {
+	align-items: center;
+	display: flex;
+	height: 40rem;
+	justify-content: center;
+	text-align: center;
+}
+
+.textTitle {
+	font-family: 'Sonsie One', cursive;
+	font-size: 5.4em;
+}
+
+.mainText {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+}
+
+.textParams {
+	margin: 1em auto;
+    width: 52rem;
+}
+
+#textOne,
+#textFour {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#textTwo {
+	align-items: center;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#textThree,
+#textFive {
+	align-items: center;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#textFive {
+	width: 14rem;
+}
+
+#swipeLeft {
+	font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+	margin: 16rem auto;
+    text-align: center;
+}
+
+#bubbleHolder {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+
+.bubble {
+	align-items: center;
+	border-radius: 2000px;
+	display: flex;
+	height: 14em;
+	justify-content: center;
+    width: 14em;
+}
+
+.imgbubble {
+	border-radius: 2000px;
+	height: 10em;
+	width: 8em;
+}
+
+.imgfront {
+	border-radius: 2000px;
+	height: 10em;
+	position: absolute;
+	width: 8em;
+}
+
+.one {
+	background: radial-gradient(circle at 100px 100px, #DE64E0, transparent);
+	left: 1em;
+	position: relative;
+	top: 2em;
+}
+
+.two {
+	background: radial-gradient(circle at 100px 100px, #9D98B1, transparent);
+	left: 44em;
+	position: relative;
+    top: -13em;
+}
+
+.three {
+	background: radial-gradient(circle at 100px 100px, #ADC6C0, transparent);
+	left: 4em;
+	position: relative;
+	top: 4em;
+}
+
+.four {
+	background: radial-gradient(circle at 100px 100px, #C65D70, transparent);
+	left: 32em;
+	position: relative;
+    top: -16em;
+}
+
+.five {
+	background: radial-gradient(circle at 100px 100px, #BC7D58, transparent);
+	left: 47em;
+	position: relative;
+	top: -16em;;
+}
+
+.six {
+	background: radial-gradient(circle at 100px 100px, #D67373, transparent);
+	position: relative;
+	top: -16em;
+}
+
+.seven {
+	background: radial-gradient(circle at 100px 100px, #7659EA, transparent);
+	left: 14em;
+	position: relative;
+	top: -20em;
+}
+
+.imgone {
+	background-color: #DE64E0;
+	opacity: 0.4;
+}
+
+.imgtwo {
+	background-color: #9D98B1;
+	opacity: 0.4;
+}
+
+.imgthree {
+	background-color: #ADC6C0;
+	opacity: 0.4;
+}
+
+.imgfour {
+	background-color: #C65D70;
+	opacity: 0.4;
+}
+
+.imgfive {
+	background-color: #BC7D58;
+	opacity: 0.4;
+}
+
+.imgsix {
+	background-color: #D67373;
+	opacity: 0.4;
+}
+
+.imgseven {
+	background-color: #7659EA;
+	opacity: 0.4;
+}
+
+.imgone,
+.bubbleone {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(-24deg );
+	transition: transform 1s linear 0s;
+}
+
+.imgtwo,
+.bubbletwo {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(14deg );
+	transition: transform 1s linear 0s;
+}
+
+.imgthree,
+.bubblethree {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(48deg );
+	transition: transform 1s linear 0s;
+}
+
+.imgfour,
+.bubblefour {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(4deg );
+	transition: transform 1s linear 0s;
+}
+
+.imgfive,
+.bubblefive {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(36deg );
+	transition: transform 1s linear 0s;
+}
+
+.imgsix,
+.bubblesix {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(-12deg );
+	transition: transform 1s linear 0s;
+}
+
+.imgseven,
+.bubbleseven {
+	transform: perspective( 600px ) rotateX(-27deg) rotateY(-6deg );
+	transition: transform 1s linear 0s;
+}

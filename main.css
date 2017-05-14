@@ -1,5 +1,22 @@
 body {
 
+background-color: black;
+color: white;
+}
+
+body::after {
+  content: "";
+  background: url("skyline.png");
+	background-repeat: no-repeat;
+	background-position: 18em 29em;
+  background-size: 43em 42em;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 #mainPageTitle {
@@ -11,16 +28,19 @@ body {
 }
 
 .textTitle {
+	color: #FF00E1;
 	font-family: 'Sonsie One', cursive;
 	font-size: 5.4em;
 }
 
 .mainText {
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
 .textParams1 {
+	color: #FF00E1;
 	left: 13em;
 	position: relative;
 	margin: 1em auto;
@@ -29,6 +49,7 @@ body {
 }
 
 .textParams2 {
+	color: #DA00FF;
 	left: 13em;
   position: relative;
   margin: 1em auto;
@@ -37,6 +58,7 @@ body {
 }
 
 .textParams3 {
+	color: #8000FF;
 	left: 18em;
 	position: relative;
 	margin: 1em auto;
@@ -45,6 +67,7 @@ body {
 }
 
 .textParams4 {
+	color: #8000FF;
 	left: 16em;
 	position: relative;
 	margin: 1em auto;
@@ -53,6 +76,7 @@ body {
 }
 
 .textParams5 {
+	color: #2500FF;
 	left: 15em;
 	position: relative;
 	margin: 1em auto;
@@ -61,6 +85,7 @@ body {
 }
 
 .textParams6 {
+	color: #008FFF;
 	left: 8em;
 	position: relative;
 	margin: 1em auto;
@@ -127,8 +152,7 @@ body {
 
 
 .img {
-	background-color: #DE64E0;
-	opacity: 0.6;
+	background-color: #000;
 }
 
 .img {
